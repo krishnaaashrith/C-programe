@@ -6,10 +6,12 @@
 int main()
 {
 	float f,m,a;
+	clrscr();
 	printf("enter the values of m,a");
 	scanf("%f%f",&m,&a);
 	f=m*a;
 	printf("\nf=%f",f);
+	getch();
 	return 0;
 }
 ```
